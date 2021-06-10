@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background:#92bde7;
+    color:#485e74;
+    line-height:1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1em;
+  }
+  
+  .container{
+    
+    margin-left:40px;
+    margin-right:40px;
+    padding:1em;
+  }
+
+ 
+  .brand{
+    text-align: center;
+  }  
+
+  .wrapper{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .wrapper > *{
+    padding: 20px;
+  }
+
+  
+
+  form button,form input{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+    margin: 10px;
+  }
+
+  form label{
+    display:block;
+  }
+
+  form button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+  }
+  
+ form button:hover,.contact form button:focus{
+    background:#92bde7;
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
+  }
+
+  .flex {
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+
+ 
+  
+  .card {
+    width: 300px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 30px;
+   
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+.large-card {
+  width: 300px;
+  height: 650px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 30px;
+ 
+}
+
+.text-container {
+    width: 300px;
+    justify-content: center;
+}
+img {
+margin-left:20px;
+margin-right: 20px;
+}
+
+.card .text {
+ margin: 5px 0;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+
+}  
